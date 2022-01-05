@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+img {
+    height: 307px;
+    width: 728px;
+}
+
+.imgContainer {
+    height: auto;
+    width: auto;
+}
+
+.delete {
+    position: absolute;
+    margin-left: 25px;
+}
+
+/* Next & previous buttons */
+.prev {
+    cursor: pointer;
+    position: absolute;
+    
+    margin-left: 310px;
+    padding: 16px;
+    background-color:gray;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+.next {
+    cursor: pointer;
+    position: absolute;
+    
+    margin-left: 358px;
+    padding: 16px;
+    background-color:gray;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  } 
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  #successMsg {
+      position: absolute;
+      margin-left: 12%;
+      margin-top: -108px;
+  }
