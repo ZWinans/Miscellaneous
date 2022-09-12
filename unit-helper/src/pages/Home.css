@@ -1,0 +1,61 @@
+.home {
+    position: relative;
+    max-width: 350px;
+    height: 535px;
+    margin: 60px auto;
+    background: whitesmoke;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid rgb(180, 180, 180);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+    color: rgb(175, 10, 10);
+}
+.home h6 {
+    line-height: 0px;
+    margin-bottom: 0px;
+}
+.home label {
+    color: rgb(138, 0, 0);
+}
+.home input, select {
+    border-radius: 8px;
+    border-color: rgb(221, 221, 221);
+    font-size: .5em;
+    margin-top: 20px;
+    text-align: center;
+}
+.home select {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+.home input {
+    width: 45px;
+    margin-right: 10px;
+    height: 35px;
+}
+.home button {
+    border-radius: 8px;
+    border: 1px solid rgb(236, 236, 236);
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    background-color: white;
+}
+.home button:hover {
+    background-color: rgb(199, 184, 184);
+}
+.home .answer {
+    padding: 10px;
+    max-width: 350px;
+    font-style: bold;
+    margin-top: 10px;
+    font-size: .7em;
+    color: rgb(53, 0, 0);
+}
+.home .icon {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}

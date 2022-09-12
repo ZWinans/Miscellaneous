@@ -1,0 +1,61 @@
+.cooking {
+    position: relative;
+    max-width: 350px;
+    height: 535px;
+    margin: 60px auto;
+    background: whitesmoke;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid rgb(180, 180, 180);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+    color: rgb(43, 1, 194);
+}
+h6 {
+    line-height: 0px;
+    margin-bottom: 0px;
+}
+.cooking label {
+    color: rgb(43, 1, 194);
+}
+input, select {
+    border-radius: 8px;
+    border-color: rgb(221, 221, 221);
+    font-size: .5em;
+    margin-top: 20px;
+    text-align: center;
+}
+select {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+input {
+    width: 45px;
+    margin-right: 10px;
+    height: 35px;
+}
+.cooking button {
+    border-radius: 8px;
+    border: 1px solid rgb(236, 236, 236);
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    background-color: white;
+}
+.cooking button:hover {
+    background-color: rgb(199, 184, 184);
+}
+.answer {
+    padding: 10px;
+    max-width: 350px;
+    font-style: bold;
+    margin-top: 10px;
+    font-size: .7em;
+    color: rgb(53, 0, 0);
+}
+.icon {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}

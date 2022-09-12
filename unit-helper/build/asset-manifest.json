@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/unit-friend/static/css/main.a5ef6bfa.css",
+    "main.js": "/unit-friend/static/js/main.2b081ebd.js",
+    "index.html": "/unit-friend/index.html",
+    "main.a5ef6bfa.css.map": "/unit-friend/static/css/main.a5ef6bfa.css.map",
+    "main.2b081ebd.js.map": "/unit-friend/static/js/main.2b081ebd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5ef6bfa.css",
+    "static/js/main.2b081ebd.js"
+  ]
+}
